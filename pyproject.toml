@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yt-queue"
+version = "1.0.0"
+description = "YouTube terminal queue manager for Linux."
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+authors = [
+    {name = "Eduardo Johann Becker", email = "147226263+TanF12@users.noreply.github.com"}
+]
+dependencies = []
+
+[project.scripts]
+yt-queue = "yt_queue:main"
